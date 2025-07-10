@@ -52,7 +52,7 @@ export function AboutSection() {
             <div className="relative w-80 h-80 mx-auto">
               <div className="absolute inset-0 bg-gradient-to-r from-blue-500 to-purple-500 rounded-full animate-pulse"></div>
               <img 
-                src="/src/assets/shahzad-profile.jpg" 
+                src="/client/src/assets/shahzad-profile.jpg" 
                 alt="Shahzad Ali - Frontend Developer" 
                 className="relative w-full h-full object-cover rounded-full border-4 border-white dark:border-slate-800 shadow-2xl animate-float"
               />

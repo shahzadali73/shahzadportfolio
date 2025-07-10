@@ -3,9 +3,9 @@
   "version": "1.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite --host 0.0.0.0 --port 5173",
-    "build": "vite build",
-    "preview": "vite preview",
+    "dev": "vite --config vite.config.local.ts --host 0.0.0.0 --port 5173",
+    "build": "vite build --config vite.config.local.ts",
+    "preview": "vite preview --config vite.config.local.ts",
     "lint": "tsc --noEmit"
   },
   "dependencies": {
